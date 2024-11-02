@@ -5,8 +5,14 @@
 
 
 @layer components {
-    .btn {
-      @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+    .templates-banner {
+      @apply h-auto relative after:absolute after:-left-3 after:-top-3 after:text-white after:bg-[#11C1F4] after:text-xs after:w-10 after:h-10 after:flex after:items-center after:justify-center after:rounded-full;
+    }
+    .link-style{
+      @apply duration-150 hover:text-[#EB3656];
+    }
+    .viewProfile-btn{
+      @apply px-6 py-3 bg-[#EB3656] hover:bg-[#BD1534] duration-150 text-white rounded-md text-sm flex items-center justify-center;
     }
 }
 
